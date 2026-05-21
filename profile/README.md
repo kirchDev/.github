@@ -13,8 +13,16 @@
   <br>
 
   <p>
-    <a href="https://kirch.dev"><b>kirch.dev</b></a> 
+    <a href="https://kirch.dev"><b>kirch.dev</b></a>
     &nbsp; • &nbsp;
     <a href="mailto:contact@kirch.dev"><b>contact@kirch.dev</b></a>
+    &nbsp; • &nbsp;
+    <a href="https://github.com/TitusKirch"><b>@TitusKirch</b></a>
   </p>
 </div>
+
+---
+
+## Packages
+
+- 🛡️ **[laravel-pbac](https://github.com/kirchDev/laravel-pbac)** - policy-based access control for Laravel: roles, permissions, organisation-scoped authorization, Gate integration, and a decision cache
