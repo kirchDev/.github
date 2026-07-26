@@ -1,0 +1,89 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TitusKirch/skills/main/tituskirch-skills.schema.json",
+  "forge": "github",
+  "language": "en",
+  "verify": null,
+  "trustedBots": [
+    {
+      "id": 49699333,
+      "login": "dependabot[bot]"
+    }
+  ],
+  "commit": {
+    "language": "en",
+    "scopes": "auto"
+  },
+  "pr": {
+    "base": "main",
+    "title": {
+      "convention": "conventional"
+    }
+  },
+  "release": false,
+  "mergeDeps": false,
+  "pruneBranches": {
+    "age": 90,
+    "protect": []
+  },
+  "issue": {
+    "tracker": "linear",
+    "title": {
+      "convention": "plain"
+    },
+    "labels": {
+      "exclude": [
+        "stack:*",
+        "autorelease:*",
+        "dependencies"
+      ]
+    },
+    "linear": {
+      "team": "INF",
+      "project": null,
+      "priority": null,
+      "defaultState": null
+    }
+  },
+  "docs": false,
+  "work": {
+    "tracker": "linear",
+    "cap": 10,
+    "branch": "branch:main",
+    "parallel": false,
+    "labels": {
+      "ready": "ai: ready",
+      "working": "ai: working",
+      "reviewRequested": "ai: review requested",
+      "reviewing": "ai: reviewing",
+      "changesRequested": "ai: changes requested",
+      "needsHuman": "ai: needs human",
+      "done": "ai: done",
+      "blocked": "ai: blocked",
+      "repo": "repo: kirchDev/.github"
+    },
+    "review": {
+      "maxRounds": 3
+    },
+    "priorityLabels": [
+      "priority: urgent",
+      "priority: high",
+      "priority: medium",
+      "priority: low"
+    ],
+    "linear": {
+      "team": "INF",
+      "statuses": [
+        "Todo",
+        "In Progress",
+        "In Review"
+      ],
+      "states": {
+        "ready": "Todo",
+        "working": "In Progress",
+        "reviewRequested": "In Review",
+        "changesRequested": "In Progress",
+        "done": "Done"
+      }
+    }
+  }
+}
