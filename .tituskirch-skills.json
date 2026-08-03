@@ -59,7 +59,8 @@
       "needsHuman": "ai: needs human",
       "done": "ai: done",
       "blocked": "ai: blocked",
-      "repo": "repo: kirchDev/.github"
+      "repo": "repo: kirchDev/.github",
+      "needsTriage": "needs triage"
     },
     "review": {
       "maxRounds": 3
@@ -75,13 +76,16 @@
       "statuses": [
         "Todo",
         "In Progress",
-        "In Review"
+        "In Review",
+        "Ready"
       ],
       "states": {
         "ready": "Todo",
         "working": "In Progress",
         "reviewRequested": "In Review",
         "changesRequested": "In Progress",
+        "needsHuman": "In Review",
+        "accepted": "Ready",
         "done": "Done"
       }
     }
